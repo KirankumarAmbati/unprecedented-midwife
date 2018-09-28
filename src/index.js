@@ -5,8 +5,8 @@ import './index.css';
 import ReactDI from 'react-di'
 import helloWorldReducer from './reducer'
 import { createStore } from 'redux'
-import { connect } from 'react-redux'
-import { Provider } from 'react-redux'
+import { connect, Provider } from 'react-redux'
+
 import LocalizedStrings from 'react-localization'
 
 let strings = new LocalizedStrings({
